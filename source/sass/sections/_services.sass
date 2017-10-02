@@ -1,0 +1,61 @@
+.services-items
+	+row-flex()
+	margin: 0 15px
+	+sm-block
+		justify-content: space-between
+	+xs-block
+		justify-content: center
+.services-item
+	+col-padding()
+	+size(3)
+	+size-sm(6)
+	+size-xs(12)
+	background-size: cover
+	background-position: center
+	position: relative
+	color: #fff
+	+overlay(#000, .5)
+	height: auto
+	min-height: 476px
+	display: flex
+	align-items: center
+	justify-content: center
+	transition: all .3s
+	&:hover
+		transform: scale(1.1)
+		z-index: 1
+		.services-item__hover
+			visibility: visible
+			transition: all .5s
+		.services-item__name
+			opacity: 0
+	&__name
+		width: 75%
+		margin: auto
+		text-align: center
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%,-50%)
+		font-weight: 800
+		font-size: 2.4rem
+		line-height: 30px
+	&__price
+		font-size: 1.8rem
+		margin-top: 5px
+	&__descr
+		font-weight: 300
+		font-size: 1.4rem
+		margin: 18px 0 25px
+	&__hover
+		visibility: hidden
+		text-align: center
+		width: 90%
+		z-index: 20
+		+overlay($accent, .85)
+		> div
+			position: relative
+		&-name
+			font-size: 2.4rem
+			font-weight: 800
+			color: #fff
