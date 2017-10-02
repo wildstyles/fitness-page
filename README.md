@@ -7,3 +7,17 @@
 * Ввести 'gulp watch' - запуск проекта
 
 ## Так же можете посмотреть готовую верстку по адресу https://wildstyles.github.io/fitness-page/ 
+
+### Инстументы которые были использованы:
+
+* заготовка для верстки https://github.com/wildstyles/markup-template
+* Таск-менеджер Gulp (таски можно посмотреть в gulpfile.js)
+* препроцессорная сетка smartgrid
+* sass препроцессор
+* bower для удобной установки плагинов
+* создан спрайт для иконок с помощью gulp
+
+#### Связаться со мной: 
+
+* vk.com/wildstyles
+* simson1801@gmail.com
